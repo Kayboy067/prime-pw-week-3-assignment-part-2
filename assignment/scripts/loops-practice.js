@@ -44,15 +44,35 @@ for (let i = 0; i < stars.length; i++) {
 }
 //console.log('Some stars:');
 
-
 // 3. While loops
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
-console.log('Some stars using while:');
+let star = 0;
+
+while (star < stars.length) {
+  console.log(`${stars[star]}`);
+  star++;
+}
+//console.log('Some stars using while:');
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
-console.log('count from 0 to 5');
+let index = 0
+const max = 6
+
+while (index < max) {
+  console.log(index);
+  index++
+}
+//console.log('count from 0 to 5');
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
-console.log('count backwards from 10 to 5');
+
+let i = 10
+const min = 4
+
+while (i > min) {
+  console.log(i);
+  i--
+}
+//console.log('count backwards from 10 to 5');
